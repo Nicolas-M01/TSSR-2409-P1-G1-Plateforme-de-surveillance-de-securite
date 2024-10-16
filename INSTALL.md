@@ -42,23 +42,24 @@
 **4 - Etapes d'installation**
 
 4.1 - Lors de l'affichage du premier écran, sélectionner la première ligne  
->Sans choix de votre part, la première ligne est automatiquement choisi au bout du décompte.
+:hourglass: Sans choix de votre part, la première ligne est automatiquement choisie au bout du décompte.
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/001.png?raw=true" alt="Pictures" width="800" >
 <br><br>
 
-4.2 - Taper `yes` lorsque cela vous est demander.
+4.2 - Taper `yes` lorsque cela vous est demandé
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/002.png?raw=true" alt="Pictures" width="800" >
 <br><br>
 
 4.3 - Renseigner le nom d'utilisateur pour vous connecter à la console  
->Pour notre démo nous utiliserons `admin`
+*pour notre démo nous utiliserons `admin`*
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/003.png?raw=true" alt="Pictures" width="800" >
 <br><br>
 
-4.4 - Renseigner un mot de passe (attention clavier qwerty par défaut)
+4.4 - Renseigner un mot de passe  
+:warning: *clavier qwerty par défaut*
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/004.png?raw=true" alt="Pictures" width="800" >
 <br><br>
@@ -103,14 +104,14 @@
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/012.png?raw=true" alt="Pictures" width="800" >
 <br><br>
 
-4.13 - Choisir l'option adéquate puis `ok`
->Dans notre démo nous prenons la version `Standard`
+4.13 - Choisir l'option adéquate puis `ok`  
+*Dans notre démo nous prenons la version `Standard`*
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/013.png?raw=true" alt="Pictures" width="800" >
 <br><br>
 
-4.14 - Renseigner un nom d'hôte pour le serveur
->Dans notre démo nous laissons le choix proposé par défaut
+4.14 - Renseigner un nom d'hôte pour le serveur  
+*Dans notre démo nous laissons le choix proposé par défaut*
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/014.png?raw=true" alt="Pictures" width="800" >
 <br><br>
@@ -120,8 +121,8 @@
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/015.png?raw=true" alt="Pictures" width="800" >
 <br><br>
 
-4.16 - Renseigner une courte desciption de votre noeud puis `ok`
->Ce renseignement n'est pas obligatoire, il est possible de laisser le champs vide puis `ok`
+4.16 - Renseigner une courte desciption de votre noeud puis `ok`  
+*Ce renseignement n'est pas obligatoire, il est possible de laisser le champs vide puis `ok`*
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/016.png?raw=true" alt="Pictures" width="800" >
 <br><br>
