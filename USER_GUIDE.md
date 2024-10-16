@@ -13,6 +13,11 @@ Security Onion est une distribution Linux open source conçue pour la surveillan
 
 
 ## 2) Utilisation de Base
+
+
+
+
+## 3) Utilisation avancée
   * #### Surveillance du traffic réseau
     Security Onion utilise des outils tels que **Suricata** et **Zeek**.
     
@@ -37,9 +42,5 @@ Security Onion est une distribution Linux open source conçue pour la surveillan
     Security Onion dispose d'un noeud HoneyPot qui imite les services, basé sur **OpenCanary**. Toute intrusion à ces services génère automatiquement une alerte.
 
     >***OpenCanary :*** Capable de simuler plusieurs services et applications susceptibles d'être ciblés par des attaquants tels que des serveurs SSH, HTTP, FTP...
-
-
-## 3) Utilisation avancée
-
 
 ## 4) FAQ : solutions aux problèmes connus et communs liés à l’utilisation
