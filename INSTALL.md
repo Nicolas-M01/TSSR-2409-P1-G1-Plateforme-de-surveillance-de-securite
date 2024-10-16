@@ -1,10 +1,9 @@
 ## Documentation Administrateur de Security Onion
 
 ### :one: SOMMAIRE
-- [Licence de cette documentation]()
-- [Prérequis techniques]()
-- [Prérequis techniques]()
-- [Étapes d'installation et de configuration de Security Onion 2.4]()
+- [Licence de cette documentation](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/INSTALL.md#two-licence-de-cette-documentation)
+- [Prérequis techniques](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/INSTALL.md#three-pr%C3%A9requis-techniques-)
+- [Étapes d'installation et de configuration de Security Onion 2.4](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/INSTALL.md#four-%C3%A9tapes-dinstallation-et-de-configuration-de-security-onion-24-)
 - [FAQ]()
 
 ### :two: Licence de cette documentation
