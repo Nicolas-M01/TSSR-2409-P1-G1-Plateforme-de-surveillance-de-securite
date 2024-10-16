@@ -1,11 +1,11 @@
 ## Documentation Administrateur de Security Onion
 
 ### :one: SOMMAIRE
-- [Licence de cette documentation](https://github.com/rikiya-gabimaru/Security-Onion-Start/blob/main/INSTALL.md#licence-de-cette-documentation)
-- [Prérequis techniques](https://github.com/rikiya-gabimaru/Security-Onion-Start/blob/main/INSTALL.md#%C3%A9tapes-dinstallation-et-de-configuration-de-security-onion-24-)
-- [Prérequis techniques](https://github.com/rikiya-gabimaru/Security-Onion-Start/blob/main/INSTALL.md#%C3%A9tapes-dinstallation-et-de-configuration-de-security-onion-24-)
-- [Étapes d'installation et de configuration de Security Onion 2.4](https://github.com/rikiya-gabimaru/Security-Onion-Start/blob/main/INSTALL.md#%C3%A9tapes-dinstallation-et-de-configuration-de-security-onion-24-)
-- [FAQ](https://github.com/rikiya-gabimaru/Security-Onion-Start/blob/main/INSTALL.md#faq-)
+- [Licence de cette documentation]()
+- [Prérequis techniques]()
+- [Prérequis techniques]()
+- [Étapes d'installation et de configuration de Security Onion 2.4]()
+- [FAQ]()
 
 ### :two: Licence de cette documentation
 - Cette documentation est sous licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.fr)
