@@ -237,6 +237,16 @@
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/037.png?raw=true" alt="Pictures" width="800" >
 <br><br>
 
+---
+
+FAQ_Ressources
+
+Slide 01 - Installer via le premier choix, sinon une installation plus avancéee est nécessaire
+Slide 10 - Si vous choisissez `Configure Network`, cela configurera uniquement le réseau du serveur.
+
+
+
+
 
 
 
