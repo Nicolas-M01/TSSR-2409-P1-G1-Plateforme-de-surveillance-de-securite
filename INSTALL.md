@@ -39,6 +39,6 @@
    - Insérer l'ISO dans la machine
    - Booter sur l'ISO
 
-**4 - Lors du premier écran de démarrage, sélectionner le premier choix.
+**4 - Lors du premier écran de démarrage, sélectionner le premier choix.**
 ><img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/001.png?raw=true" alt="Pictures" width="500" height="500">
 
