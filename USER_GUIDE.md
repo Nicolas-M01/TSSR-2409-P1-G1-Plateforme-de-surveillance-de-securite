@@ -2,15 +2,18 @@
 ---
 ### Sommaire
 
-1) Définition Security Onion : SIEM
-2) [Utilisation de Base](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#FAQ) 
-3) Utilisation avancée
+1) [Définition Security Onion : SIEM](#SIEM)
+2) [Utilisation de Base](#Utilisation-de-Base)
+4) [Utilisation avancée](#Utilisation-avancée)
+5) [FAQ : solutions aux problèmes connus et communs liés à l’utilisation](#FAQ)
+
+### 1) Définition Security Onion
 
 
-### Utilisation de Base
+### 2) Utilisation de Base
 
 
-### Utilisation avancée
+### 3) Utilisation avancée
 
 
-### FAQ : solutions aux problèmes connus et communs liés à l’utilisation
+### 4) FAQ : solutions aux problèmes connus et communs liés à l’utilisation
