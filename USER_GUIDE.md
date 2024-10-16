@@ -12,7 +12,20 @@
 Security Onion est une distribution Linux open source conçue pour la surveillance et l'analyse de la sécurité réseau. Elle est spécifiquement développée pour aider les organisations à détecter et à répondre aux menaces de sécurité en fournissant des outils puissants pour la surveillance du trafic réseau, l'analyse des journaux et la détection d'intrusions.
 
 
+
 ## 2) Utilisation de Base
+Une fois l'installation terminée, connectez vous avec l'adresse IP de votre installation Security Onion. Connectez vous à l'aide de l'adresse mail et mot de passe spécifiés pendant l'installation.
+
+![écran login](https://docs.securityonion.net/en/2.4/_images/37_login.png)
+
+
+
+Une fois connecté, vous remarquerez le menu principal sur la partie gauche. Et le menu utilisateur en haut à droite pour accéder à la doc et autres ressources et gérer les paramètres utilisateur.
+
+![UserMenu](https://docs.securityonion.net/en/2.4/_images/94_usermenu.png)
+
+
+
 
 
 
