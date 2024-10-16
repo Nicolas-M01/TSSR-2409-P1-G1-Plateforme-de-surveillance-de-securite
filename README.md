@@ -42,7 +42,7 @@
 #
 #
 
-### Limitations matérielles:
+### Limitations matériels:
 
 - Le premier obstacle évident se situe au niveau d'une config relativement robuste pour pouvoir faire tourner décemment une version standalone.
 Les options plus légères n'ont pas abouti aux résultats escomptés.
@@ -59,7 +59,7 @@ La difficulté à notre étape consiste à essayer d'anticiper ce que nous ne co
 #
 #
 
-### Solution matérielle:
+### Solution matériel:
 
 - Nous avons opté pour un support d'installation ***proxmox*** (?)
 
