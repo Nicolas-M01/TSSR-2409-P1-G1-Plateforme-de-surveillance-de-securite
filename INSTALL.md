@@ -133,7 +133,7 @@
 <br><br>
 
 4.18 - Sélectionner `STATIC` afin d'attribuer une adresse IP fixe à la carte de gestion puis `ok`  
-:pencil2: *Il est possible de choisir `DHCP` durant une phase de test, mais pas en production.*
+:pencil2: *Il est possible de choisir `DHCP` durant une phase de test, mais NON production.*
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/018.png?raw=true" alt="Pictures" width="800" >
 <br><br>
@@ -158,7 +158,7 @@
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/022.png?raw=true" alt="Pictures" width="800" >
 <br><br>
 
-4.23 - Sélectionner l'option adéquate puis `ok`
+4.23 - Sélectionner l'option adéquate puis `ok`  
 :pencil2: Dans notre démo nous prendrons `Direct`
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/023.png?raw=true" alt="Pictures" width="800" >
@@ -175,7 +175,7 @@
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/025.png?raw=true" alt="Pictures" width="800" >
 <br><br>
 
-4.26 - Renseigner une adresse mail qui servira à vous authentifier sur la webui puis `ok`
+4.26 - Renseigner une adresse mail qui servira à l'authentification sur la webui puis `ok`
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/026.png?raw=true" alt="Pictures" width="800" >
 <br><br>
@@ -190,7 +190,8 @@
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/028.png?raw=true" alt="Pictures" width="800" >
 <br><br>
 
-4.29 - Choisir l'option adéquate (dans notre démo ce sera `IP` (recommandé))
+4.29 - Choisir l'option adéquate puis `ok`
+:pencil2: Dans notre démo ce sera `IP` (recommandé))
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/029.png?raw=true" alt="Pictures" width="800" >
 <br><br>
@@ -211,7 +212,7 @@
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/032.png?raw=true" alt="Pictures" width="800" >
 <br><br>
 
-4.33 - Vérifier les informations, si ok appuyer sur `TAB` pour sélectionner `Yes` puis `Entrée`
+4.33 - Vérifier les informations, si ok appuyer sur `TAB` pour sélectionner `Yes` puis `Entrée`  
 :warning: L'installation peut durer près d'une heure suivant votre configuration, ne pas interrompre celle-ci.
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/033.png?raw=true" alt="Pictures" width="800" >
