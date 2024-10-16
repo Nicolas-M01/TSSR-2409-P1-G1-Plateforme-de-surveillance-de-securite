@@ -158,12 +158,14 @@
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/022.png?raw=true" alt="Pictures" width="800" >
 <br><br>
 
-4.23 - Sélectionner l'option adéquate (dans notre démo nous prendrons `Direct`) puis `ok`
+4.23 - Sélectionner l'option adéquate puis `ok`
+:pencil2: Dans notre démo nous prendrons `Direct`
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/023.png?raw=true" alt="Pictures" width="800" >
 <br><br>
 
-4.24 - Sélectionner l'option adéquate (dans notre démo ce sera `Yes`)
+4.24 - Sélectionner l'option adéquate puis `ok`  
+:pencil2: Dans notre démo ce sera `Yes`)
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/024.png?raw=true" alt="Pictures" width="800" >
 <br><br>
