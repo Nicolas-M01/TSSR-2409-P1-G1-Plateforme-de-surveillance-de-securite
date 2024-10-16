@@ -133,7 +133,7 @@
 <br><br>
 
 4.18 - Sélectionner `STATIC` afin d'attribuer une adresse IP fixe à la carte de gestion puis `ok`  
-:pencil2: *Il est possible de choisir `DHCP` durant une phase de test, mais NON production.*
+:pencil2: *Il est possible de choisir `DHCP` durant une phase de test, mais NON en production.*
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/018.png?raw=true" alt="Pictures" width="800" >
 <br><br>
@@ -190,7 +190,7 @@
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/028.png?raw=true" alt="Pictures" width="800" >
 <br><br>
 
-4.29 - Choisir l'option adéquate puis `ok`
+4.29 - Choisir l'option adéquate puis `ok`  
 :pencil2: Dans notre démo ce sera `IP` (recommandé))
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/029.png?raw=true" alt="Pictures" width="800" >
