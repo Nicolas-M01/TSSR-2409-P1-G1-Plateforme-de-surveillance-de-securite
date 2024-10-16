@@ -53,13 +53,13 @@
 <br><br>
 
 4.3 - Renseigner le nom d'utilisateur pour vous connecter à la console  
-*pour notre démo nous utiliserons `admin`*
+:pencil2: *Pour notre démo nous utiliserons `admin`*
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/003.png?raw=true" alt="Pictures" width="800" >
 <br><br>
 
 4.4 - Renseigner un mot de passe  
-:warning: *clavier qwerty par défaut*
+:warning: *Clavier qwerty par défaut*
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/004.png?raw=true" alt="Pictures" width="800" >
 <br><br>
@@ -105,13 +105,13 @@
 <br><br>
 
 4.13 - Choisir l'option adéquate puis `ok`  
-*Dans notre démo nous prenons la version `Standard`*
+:pencil2: *Dans notre démo nous prenons la version `Standard`*
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/013.png?raw=true" alt="Pictures" width="800" >
 <br><br>
 
 4.14 - Renseigner un nom d'hôte pour le serveur  
-*Dans notre démo nous laissons le choix proposé par défaut*
+:pencil2: *Dans notre démo nous laissons le choix proposé par défaut*
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/014.png?raw=true" alt="Pictures" width="800" >
 <br><br>
@@ -122,7 +122,7 @@
 <br><br>
 
 4.16 - Renseigner une courte desciption de votre noeud puis `ok`  
-*Ce renseignement n'est pas obligatoire, il est possible de laisser le champs vide puis `ok`*
+:pencil2: *Ce renseignement n'est pas obligatoire, il est possible de laisser le champs vide puis `ok`*
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/016.png?raw=true" alt="Pictures" width="800" >
 <br><br>
@@ -133,7 +133,7 @@
 <br><br>
 
 4.18 - Sélectionner `STATIC` afin d'attribuer une adresse IP fixe à la carte de gestion puis `ok`
->Il est possible de choisir `DHCP` durant une phase de test, mais pas en production.
+:pencil2: *Il est possible de choisir `DHCP` durant une phase de test, mais pas en production.*
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/018.png?raw=true" alt="Pictures" width="800" >
 <br><br>
@@ -153,7 +153,7 @@
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/021.png?raw=true" alt="Pictures" width="800" >
 <br><br>
 
-4.22 - Spécifier un domaine de recherche DNS (il est possible de garder celui par défaut)
+4.22 - Spécifier un domaine de recherche DNS (il est possible de garder celui par défaut) puis `ok`
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/022.png?raw=true" alt="Pictures" width="800" >
 <br><br>
@@ -203,13 +203,14 @@
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/031.png?raw=true" alt="Pictures" width="800" >
 <br><br>
 
-4.32 - Soutenez la communauté en validant `Yes` (Cette validation n'est pas obligatoire, dans notre démo nous choisissons `No`)
+4.32 - Soutenez la communauté en validant `Yes`  
+:pencil2: (Cette validation n'est pas obligatoire, dans notre démo nous choisissons `No`)
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/032.png?raw=true" alt="Pictures" width="800" >
 <br><br>
 
 4.33 - Vérifier les informations, si ok appuyer sur `TAB` pour sélectionner `Yes` puis `Entrée`
-Attention : L'installation peut durer près d'une heure suivant votre configuration, ne pas interrompre celle-ci.
+:warning: L'installation peut durer près d'une heure suivant votre configuration, ne pas interrompre celle-ci.
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/033.png?raw=true" alt="Pictures" width="800" >
 <br><br>
