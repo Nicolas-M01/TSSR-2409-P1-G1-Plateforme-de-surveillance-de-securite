@@ -95,4 +95,3 @@ Après plusieurs essais et type de connexions, l'accès par pont semble permettr
  #### Une documentation plus fournie sur la configuration des outils à disposition dans la version Standalone
  #### Une installation de clients et d'agents supplémentaires pour tester l'analyse de données à plus grande échelle et dans des environnements variés.
  
-:white_check_mark: [Ressource](https://www.marmiton.org/recettes/recette_soupe-a-l-oignon_10891.aspx)
