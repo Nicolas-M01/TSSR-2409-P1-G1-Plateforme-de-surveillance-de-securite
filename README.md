@@ -24,7 +24,7 @@ SOMMAIRE
 
  ## III. Introduction : mise en contexte
 
-- Création du serveur Security Onion
+- Création du serveur Security Onion et d'un agent
 
 - Création du ou des clients 
 
