@@ -23,7 +23,7 @@ Une fois connecté, vous remarquerez le menu principal sur la partie gauche avec
 
 ![UserMenu](https://docs.securityonion.net/en/2.4/_images/94_usermenu.png)
 
-### Alertes 
+### Alerts 
 Security Onion comprend une interface Alertes qui vous donne un aperçu des alertes générées par Security Onion. Vous pouvez ensuite accéder rapidement aux détails, basculer vers Hunt ou l'interface PCAP et faire remonter les alertes vers les dossiers .
 
 ![Alerts](https://docs.securityonion.net/en/2.4/_images/50_alerts.png)
@@ -35,15 +35,45 @@ Security Onion comprend une interface de tableaux de bord qui comprend un ensemb
 ![Dashboards](https://docs.securityonion.net/en/2.4/_images/53_dashboards.png)
 
 ### Hunt
+Il comprend également une interface proche de Dashboards. Mais dans Hunt les rêquetes sont plus ciblées que dans Dashboards et il est plutôt adapté à la recherche de menace.
+
+![Hunt](https://docs.securityonion.net/en/2.4/_images/56_hunt.png)
+
+
 ### Cases
+Cette interface est utilisée pour la gestion des cas. Elle permet de faire remonter les journaux de Alerts, Dashboards et Hunt. Elle permet ensuite d'affecter des analystes, de rajouter des commentaires et des pièces jointes et de suivre ce qui est observable.
+
+![Cases](https://docs.securityonion.net/en/2.4/_images/57_0_cases.png)
+
+
 ### Detection
+Cette interface sert à paramétrer les règles de détection pour gérer les règles.
+
+![Detection](https://docs.securityonion.net/en/2.4/_images/57_detections.png)
+
+
 ### PCAP
+PCAP permet d'accéder aux captures de paquets du réseau, qui ont été écrites pas Suricata par exemple.
+
+![PCAP](https://docs.securityonion.net/en/2.4/_images/62_pcap.png)
+
+
 ### Grid
+Cette interface permet de voir l'état des noeuds du réseau.
+
+![Grid](https://docs.securityonion.net/en/2.4/_images/39_grid.png)
+
+
 ### Downloads
+Cette interface permet de télécharger ElasticAgent
+
+![Downloads](https://docs.securityonion.net/en/2.4/_images/78_downloads.png)
+
+
 ### Administration
+La partie administration permet de gérer les utilisateurs, les membres du réseau, la confirguration et la clé de licence.
 
-
-
+![Adminnistration](https://docs.securityonion.net/en/2.4/_images/81_users.png)
 
 
 ## 3) Utilisation avancée
