@@ -5,7 +5,8 @@
 1) [Définition Security Onion : SIEM](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#definition-security-onion)
 2) [Utilisation de Base](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#utilisation-de-Base)
 4) [Utilisation avancée](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#utilisation-avancee)
-5) [FAQ : solutions aux problèmes connus et communs liés à l’utilisation](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#faq-:-solutions-aux-problemes-connus-et-communs-lies-a-l-utilisation)
+5) [Installation/enrôlement d'un agent dans Security Onion](Installation/enrôlement-d'un-agent-dans-Security-Onion)
+6) [FAQ : solutions aux problèmes connus et communs liés à l’utilisation](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#faq-:-solutions-aux-problemes-connus-et-communs-lies-a-l-utilisation)
   
 
 
@@ -174,7 +175,7 @@ Nous avons besoin à minima d'un agent, et donc d'une nouvelle machine capable d
 
 * Une notification bleue devrait apparaître en haut de l'écran "synchronization has been initiated in the background; this process can take several minutes to complete"
 
- >***NB :*** avant les prochaines étapes, nous précisons que nous avons redémarré le serveur security onion par l'invite de commande. Vérifier que le serveur est bien en ligne avec un pin.
+ >***NB :*** avant les prochaines étapes, nous précisons que nous avons redémarré le serveur security onion. Vérifier que le serveur est bien en ligne avec un ping.
 
 
 ### _Installation de l'agent_
