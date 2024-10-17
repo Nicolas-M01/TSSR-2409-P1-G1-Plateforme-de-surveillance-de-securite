@@ -10,13 +10,13 @@
 
 
 ## :one: Définition Security Onion
-Security Onion est un SIEM : Système de gestion des événements et des informations de sécurité. C'est un système centralisé qui permet une visibilité globale sur l'ensemble de l'activité du réseau et qui permet de régir aux menaces.
+Security Onion est un SIEM : Système de gestion des événements et des informations de sécurité. C'est un système centralisé qui permet une visibilité globale sur l'ensemble de l'activité du réseau et qui permet de régir aux menaces en temps réel.
 Security Onion est une distribution Linux (basée sur Fedora) open source conçue pour la surveillance et l'analyse de la sécurité réseau. Elle est spécifiquement développée pour aider les organisations à détecter et à répondre aux menaces de sécurité en fournissant des outils puissants pour la surveillance du trafic réseau, l'analyse des journaux et la détection d'intrusions.  
 
 
 ## :two: Utilisation de base
 ### Connexion
-Une fois l'installation terminée, connectez vous avec l'adresse IP de votre installation Security Onion. Connectez vous à l'aide de l'adresse mail et mot de passe spécifiés pendant l'installation.
+Une fois l'installation terminée, connectez vous avec l'adresse IP de votre installation Security Onion. Connectez vous à l'aide de l'adresse mail et du mot de passe spécifiés pendant l'installation.
 
 ![écran login](https://docs.securityonion.net/en/2.4/_images/37_login.png)  
 
@@ -26,7 +26,7 @@ Une fois connecté, vous remarquerez le menu principal sur la partie gauche avec
 ![UserMenu](https://docs.securityonion.net/en/2.4/_images/94_usermenu.png)
 
 ### Alerts 
-Security Onion comprend une interface Alertes qui vous donne un aperçu des alertes générées par Security Onion. Vous pouvez ensuite accéder rapidement aux détails, basculer vers Hunt ou l'interface PCAP et faire remonter les alertes vers les dossiers .
+Security Onion comprend une interface Alerts qui vous donne un aperçu des alertes générées par Security Onion. Vous pouvez ensuite accéder rapidement aux détails, basculer vers Hunt ou l'interface PCAP et faire remonter les alertes vers les dossiers .
 
 ![Alerts](https://docs.securityonion.net/en/2.4/_images/50_alerts.png)
 
@@ -49,13 +49,13 @@ Cette interface est utilisée pour la gestion des cas. Elle permet de faire remo
 
 
 ### Detection
-Cette interface sert à paramétrer les règles de détection pour gérer les règles.
+Cette interface sert à paramétrer les règles de détection.
 
 ![Detection](https://docs.securityonion.net/en/2.4/_images/57_detections.png)
 
 
 ### PCAP
-PCAP permet d'accéder aux captures de paquets du réseau, qui ont été écrites pas Suricata par exemple.
+PCAP permet d'accéder aux captures de paquets du réseau, qui ont été écrites par Suricata par exemple.
 
 ![PCAP](https://docs.securityonion.net/en/2.4/_images/62_pcap.png)
 
@@ -73,7 +73,7 @@ Cette interface permet de télécharger ElasticAgent
 
 
 ### Administration
-La partie administration permet de gérer les utilisateurs, les membres du réseau, la confirguration et la clé de licence.
+La partie administration permet de gérer les utilisateurs, les membres du réseau, la configuration et la clé de licence.
 
 ![Adminnistration](https://docs.securityonion.net/en/2.4/_images/81_users.png)
 
@@ -91,9 +91,9 @@ La partie administration permet de gérer les utilisateurs, les membres du rése
   * #### Analyse de journaux
     Il intègre des outils comme **ElasticSearch**, **Logstash** et **Kibana** appelés suite "ELK". Cette suite de logiciels permet de collecter n'importe quel format de données depuis n'importe quelle source pour les analyser.
     
-    >***ElasticSearch :*** Moteur de recherche et d'analyse, il centralise le stockage de vos données et fournit une recherche rapide et pertinante. Choix idéal dans l'analyse des journaux. Il indexe, analyse et recherche les données ingéres.
+    >***ElasticSearch :*** Moteur de recherche et d'analyse, il centralise le stockage de vos données et fournit une recherche rapide et pertinante. Choix idéal dans l'analyse des journaux. Il indexe, analyse et recherche les données ingérées.
     
-    >***Logstash :*** Permet de collecter les données de diverses sources, de les transformer et de les envoyer. Il sert souvent de "pipeline" côté serveur, pour envoyer vers        ElasticSearch. Il ingère, transforme et les données à bonne destination.
+    >***Logstash :*** Permet de collecter les données de diverses sources, de les transformer et de les envoyer. Il sert souvent de "pipeline" côté serveur, pour envoyer vers ElasticSearch. Il ingère, transforme et envoie les données à bonne destination.
 
     >***Kibana :*** Outil de visualisation des journaux analysés. Il propose différentes formes de graphiques et de rapports intuitifs utilisés pour naviguer de manière interactive dans de grandes quantités de données. Il visualise les résultats.
 
