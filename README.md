@@ -77,7 +77,7 @@ Sélectionner "Install Security Onion 2.4.110"
 Configurer un nom d'administrateur et un mot de passe
 Redémarrer la machine à la fin de l'installation initiale
 
-# 4 - Installation standard et configuration :
+## 4 - Installation standard et configuration :
 
 * Au redémarrage de la machine, choisir "Yes" pour commencer la configuration
 * Lancer l'installation standard de Security Onion
