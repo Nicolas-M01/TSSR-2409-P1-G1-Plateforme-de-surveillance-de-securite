@@ -79,9 +79,9 @@ De même, c'est à cette étape qu'il est préférable de savoir quels types de 
 ### Solution matérielle:
 
 Les tentatives d'installation sur virtualBox n'étant pas concluantes, nous avons opté pour un support d'installation et virtualisation par proxmox.
-<td style="text-align: center;">
+<p align="center">
  <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/proxmox.png" alt="picture" width="50" >
-</td>
+</p>
 Proxmox est un environnement virtuel d'installation qui repose sur l'hypersiveur linux KVM (hyperviseur libre de type 1).
 
 ### Solution configuration réseau:
