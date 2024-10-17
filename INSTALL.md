@@ -241,12 +241,13 @@
 
 FAQ_Ressources
 
-Slide 01 - Installer via le premier choix, sinon une installation plus avancéee est nécessaire
-Slide 10 - Si vous choisissez `Configure Network`, cela configurera uniquement le réseau du serveur.
-
-
-
-
+Slide 01 - Installer via le premier choix, sinon une installation plus avancéee est nécessaire.  
+Slide 10 - Si vous choisissez `Configure Network`, cela configurera uniquement le réseau du serveur.  
+Slide 11 - D'autres version sont disponible celon le besoin et le matériel disponible.  
+Slide 13 - Le choix `Airgap` permet le déploiement du Security Onion dans un environnement sans accès internet.  
+Slide 23 - Le choix `Proxy` est un mode connection alternatif pour le traffic (git, docker, wget, curl ..)  
+Slide 29 - D'autres choix de connection au webui sont disponible, tel que `HOSTNAME` si un résolveur de nom est actif.  
+Slide 36 - Le message `Hint: Num Lock on` s'affiche si votre pavé numérique est vérrouillé  
 
 
 
