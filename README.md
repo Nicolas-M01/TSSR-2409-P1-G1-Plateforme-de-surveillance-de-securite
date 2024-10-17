@@ -55,7 +55,7 @@ SOMMAIRE
   * 2 cartes réseau
  
   * 
-Étapes d'installation et de configuration de Security Onion 2.4 :
+# Étapes d'installation et de configuration de Security Onion 2.4 :
 
 1 - Téléchargement de l'ISO :
 
@@ -105,7 +105,7 @@ Redémarrer la machine à la fin de l'installation initiale
 
 Valider la fenêtre de fin de configuration
 
-FAQ :
+##FAQ :
 
 - En cours de construction...
 
