@@ -13,6 +13,11 @@
 Security Onion est un SIEM : Système de gestion des événements et des informations de sécurité. C'est un système centralisé qui permet une visibilité globale sur l'ensemble de l'activité du réseau et qui permet de régir aux menaces en temps réel.
 Security Onion est une distribution Linux (basée sur Fedora) open source conçue pour la surveillance et l'analyse de la sécurité réseau. Elle est spécifiquement développée pour aider les organisations à détecter et à répondre aux menaces de sécurité en fournissant des outils puissants pour la surveillance du trafic réseau, l'analyse des journaux et la détection d'intrusions.  
 
+Dans le diagramme ci-dessous, on peut voir l'architecture Security Onion simplifiée dans un réseau d'entreprise traditionnel avec un pare-feu, des postes de travail et des serveurs.  
+Vous pouvez utiliser Security Onion pour surveiller le trafic nord/sud afin de détecter un adversaire entrant dans un environnement depuis le reseau internet, mais également surveiller le trafic est/ouest pour détecter les mouvements entre les terminaux.  
+Security Onion peut collecter les journaux de vos serveurs et postes de travail afin que vous puissiez ensuite rechercher simultanément tous les journaux de votre réseau et de votre hôte.
+[Architecture security onion](https://docs.securityonion.net/en/2.4/_images/network-horiz.png)
+
 
 ## :two: Utilisation de base
 ### Connexion
