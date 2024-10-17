@@ -49,13 +49,13 @@
 ##### :arrow_forward: D.2 - Taper `yes` lorsque cela vous est demandé
 <br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/002.png?raw=true" alt="Pictures" width="800" >
-<br><br>
+<br><br><br>
 
 ##### :arrow_forward: D.3 - Renseigner le nom d'utilisateur pour vous connecter à la console  
 :pencil2: *Pour notre démo nous utiliserons `admin`*
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/003.png?raw=true" alt="Pictures" width="800" >
-<br><br>
+<br><br><br>
 
 ##### :arrow_forward: D.4 - Renseigner un mot de passe  
 :warning: *Clavier qwerty par défaut*
@@ -107,7 +107,7 @@
 :pencil2: *Dans notre démo nous prenons la version `Standard`*
 <br><br>
 <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/013.png?raw=true" alt="Pictures" width="800" >
-<br><br>
+<br><br><br>
 
 ##### :arrow_forward: D.14 - Renseigner un nom d'hôte pour le serveur  
 :pencil2: *Dans notre démo nous laissons le choix proposé par défaut*
