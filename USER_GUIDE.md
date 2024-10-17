@@ -2,17 +2,19 @@
 ---
 ## Sommaire
 
-1) [Définition Security Onion : SIEM](#SIEM)
-2) [Utilisation de Base](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#Utilisation-de-Base)
-4) [Utilisation avancée](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#Utilisation-avancée)
-5) [FAQ : solutions aux problèmes connus et communs liés à l’utilisation](#faq-:-solutions-aux-problemes-connus-et-communs-lies-a-l-utilisation)
+1) [Définition Security Onion : SIEM](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#definition-security-onion)
+2) [Utilisation de Base](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#utilisation-de-Base)
+4) [Utilisation avancée](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#utilisation-avancee)
+5) [FAQ : solutions aux problèmes connus et communs liés à l’utilisation](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#faq-:-solutions-aux-problemes-connus-et-communs-lies-a-l-utilisation)
+  
 
 
-## 1) Définition Security Onion
-Security Onion est une distribution Linux open source conçue pour la surveillance et l'analyse de la sécurité réseau. Elle est spécifiquement développée pour aider les organisations à détecter et à répondre aux menaces de sécurité en fournissant des outils puissants pour la surveillance du trafic réseau, l'analyse des journaux et la détection d'intrusions.
+## :one: Définition Security Onion
+Security Onion est un SIEM : Système de gestion des événements et des informations de sécurité. C'est un système centralisé qui permet une visibilité globale sur l'ensemble de l'activité du réseau et qui permet de régir aux menaces.
+Security Onion est une distribution Linux (basée sur Fedora) open source conçue pour la surveillance et l'analyse de la sécurité réseau. Elle est spécifiquement développée pour aider les organisations à détecter et à répondre aux menaces de sécurité en fournissant des outils puissants pour la surveillance du trafic réseau, l'analyse des journaux et la détection d'intrusions.  
 
 
-## 2) Utilisation de Base
+## :two: Utilisation de base
 ### Connexion
 Une fois l'installation terminée, connectez vous avec l'adresse IP de votre installation Security Onion. Connectez vous à l'aide de l'adresse mail et mot de passe spécifiés pendant l'installation.
 
@@ -76,7 +78,7 @@ La partie administration permet de gérer les utilisateurs, les membres du rése
 ![Adminnistration](https://docs.securityonion.net/en/2.4/_images/81_users.png)
 
 
-## 3) Utilisation avancée
+## :three: Utilisation avancée
   * #### Surveillance du traffic réseau
     Security Onion utilise des outils tels que **Suricata** et **Zeek**.
     
@@ -102,4 +104,4 @@ La partie administration permet de gérer les utilisateurs, les membres du rése
 
     >***OpenCanary :*** Capable de simuler plusieurs services et applications susceptibles d'être ciblés par des attaquants tels que des serveurs SSH, HTTP, FTP...
 
-## 4) FAQ : solutions aux problèmes connus et communs liés à l’utilisation
+## :four: FAQ : solutions aux problèmes connus et communs liés à l’utilisation
