@@ -7,7 +7,7 @@ SOMMAIRE
 2. [Objectif final](#ii-objectif-final)
 3. [Introduction : mise en contexte](#iii-introduction--mise-en-contexte)
 4. [Membres du groupe de projet (rôles par sprint)](#iv-membres-du-groupe-de-projet-rôles-par-sprint)
-5. [Choix techniques](#-choix-technique)
+5. [Choix techniques](#V-choix-techniques)
 6. [Difficultés rencontrées](#vi-difficultés-rencontrées)
 7. [Solutions trouvées et/ou alternatives](#vii-solutions-trouvées-etou-alternatives)
 8. [Améliorations possibles : suggestions d'améliorations futures](#viii-améliorations-possibles--suggestions-daméliorations-futures)
@@ -41,22 +41,34 @@ SOMMAIRE
 
            -Collaborateurs > William et François
 
-
 ## V. Choix techniques
- 
 
+ 
+### Os d'installation:
+
+* Le SIEM Security Onion 2.4.110 repose sur la distribution Fedora Linux.
+* Allocation de ressources pour une installation en standalone:
+  * Architecture x86-64 / standard Intel ou processeur AMD 64-bit
+  * 4 coeurs
+  * 16Go de Ram
+  * minimum 100Go d'espace disque (200Go officiellement).
+  * 2 cartes réseau
+
+### OS rôle client
+
+Nous avons opté pour les systèmes d'exploitation windows 10 et linux ubuntu pour, dans un premier temps, représenter au maximum la configuration standard de l'utilisateur. 
 
 ## VI. Difficultés rencontrées
 
 
-### Limitations matérielles
+### Limitations matérielles:
 
 Le premier obstacle se situe au niveau d'allocation de ressources nécessaires pour la stabilité du SIEM.
 La version standalone, privilégiée pour bénéficier d'une solution complète, ne peut s'installer sur des configurations standards (de 16Go Ram et inférieur).
 Des tests de versionns plus légères n'ont pas abouti aux résultats escomptés.
 Généralement l'installation nous notifie d'une allocation de ressources trop faible.
 
-### Configuration réseau
+### Configuration réseau:
 
 La configuration réseau a besoin d'être anticipée. Le parcours de l'installation propose plusieurs types de connexions.
 Cependant les options à venir en dépendent et ces étapes déterminent la flexibilité avec laquelle peut s'établir la connexion à l'hôte.
@@ -64,14 +76,23 @@ De même, c'est à cette étape qu'il est préférable de savoir quels types de 
 
 ## VII. Solutions trouvées et/ou alternatives  
 
-### Solution matérielle
+### Solution matérielle:
 
-Nous avons opté pour un support d'installation et virtualisation par ***proxmox*** (?)
+Les tentatives d'installation sur virtualBox n'étant pas concluantes, nous avons opté pour un support d'installation et virtualisation par proxmox.
+<td style="text-align: center;">
+ <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/proxmox.png" alt="picture" width="50" >
+</td>
+Proxmox est un environnement virtuel d'installation qui repose sur l'hypersiveur linux KVM (hyperviseur libre de type 1).
 
-### Solution configuration réseau
+### Solution configuration réseau:
 
 Après plusieurs essais et type de connexions, l'accès par pont semble permettre plus de flexibilité à l'installation et nous a permis de tester la connexion au serveur.
 
 ## VIII. Améliorations possibles : suggestions d'améliorations futures
 
-D'autres pistes de configurations réseau ou d'environnements de test seront envisagées lorsque la solution sera plus amplement comprise et stable.
+ #### D'autres pistes de configurations réseau ou d'environnements de test seront envisagées lorsque la solution sera plus amplement comprise et stable.
+ #### Une documenntation plus fournie sur la manipulation de l'interface
+ #### Une documentation plus fournie sur la configuration des outils à disposition dans la version Standalone
+ #### Une installation de clients et d'agents supplémentaires pour tester l'analyse de données à plus grande échelle et dans des environnements variés.
+ 
+
