@@ -64,7 +64,9 @@ https://docs.securityonion.net/en/2.4/download.html
 2 - Vérifier l'intégrité de l'ISO :
 
 En BASH : sha256sum securityonion-2.4.110-20241010.iso
+
 En CMD : certutil -hashfile securityonion-2.4.110-20241010.iso sha256
+
 En Powershell Get-FileHash -Path "C:\ISO\securityonion-2.4.110-20241010.iso" -Algorithm SHA256
 
 3 - Lancement de l'installation initiale :
