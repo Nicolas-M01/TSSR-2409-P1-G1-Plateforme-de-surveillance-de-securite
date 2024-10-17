@@ -105,7 +105,7 @@ Redémarrer la machine à la fin de l'installation initiale
 
 Valider la fenêtre de fin de configuration
 
-##FAQ :
+ # FAQ :
 
 - En cours de construction...
 
