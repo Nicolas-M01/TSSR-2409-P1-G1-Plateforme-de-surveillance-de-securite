@@ -109,4 +109,5 @@ La partie administration permet de gérer les utilisateurs, les membres du rése
 
     >***OpenCanary :*** Capable de simuler plusieurs services et applications susceptibles d'être ciblés par des attaquants tels que des serveurs SSH, HTTP, FTP...
 
-## :four: FAQ : solutions aux problèmes connus et communs liés à l’utilisation
+## :four: FAQ : solutions aux problèmes connus et communs liés à l’utilisation  
+:interrobang: [Faq site officiel](https://docs.securityonion.net/en/2.4/faq.html#users-passwords)
