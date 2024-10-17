@@ -7,11 +7,10 @@ SOMMAIRE
 2. [Objectif final](#ii-objectif-final)
 3. [Introduction : mise en contexte](#iii-introduction--mise-en-contexte)
 4. [Membres du groupe de projet (rôles par sprint)](#iv-membres-du-groupe-de-projet-rôles-par-sprint)
-5. [Choix techniques](#v-choix-techniques)
-   * etapes d'installation 
-7. [Difficultés rencontrées](#vi-difficultés-rencontrées)
-8. [Solutions trouvées et/ou alternatives](#vii-solutions-trouvées-etou-alternatives)
-9. [Améliorations possibles : suggestions d'améliorations futures](#viii-améliorations-possibles--suggestions-daméliorations-futures)
+5. [Choix techniques]
+6. [Difficultés rencontrées](#vi-difficultés-rencontrées)
+7. [Solutions trouvées et/ou alternatives](#vii-solutions-trouvées-etou-alternatives)
+8. [Améliorations possibles : suggestions d'améliorations futures](#viii-améliorations-possibles--suggestions-daméliorations-futures)
 
 <br><br>
 
