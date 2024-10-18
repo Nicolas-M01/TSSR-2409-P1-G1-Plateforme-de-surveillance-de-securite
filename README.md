@@ -81,6 +81,7 @@ De même, c'est à cette étape qu'il est préférable de savoir quels types de 
 
 Les tentatives d'installation sur virtualBox n'étant pas concluantes, nous avons opté pour un support d'installation et virtualisation par proxmox.
 <p align="center">
+<a href="https://www.proxmox.com/en/">
  <img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/proxmox.png" alt="picture" width="50" >
 </p>
 Proxmox est un environnement virtuel d'installation qui repose sur l'hypersiveur linux KVM (hyperviseur libre de type 1).
@@ -92,7 +93,7 @@ Après plusieurs essais et type de connexions, l'accès par pont semble permettr
 ## VIII. Améliorations possibles : suggestions d'améliorations futures
 
  #### D'autres pistes de configurations réseau ou d'environnements de test seront envisagées lorsque la solution sera plus amplement comprise et stable.
- #### Une documenntation plus fournie sur la manipulation de l'interface
+ #### Une documentation plus fournie sur la manipulation de l'interface
  #### Une documentation plus fournie sur la configuration des outils à disposition dans la version Standalone
  #### Une installation de clients et d'agents supplémentaires pour tester l'analyse de données à plus grande échelle et dans des environnements variés.
  
