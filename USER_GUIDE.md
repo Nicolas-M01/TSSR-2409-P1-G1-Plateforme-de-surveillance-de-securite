@@ -4,9 +4,9 @@
 
 1) [Définition Security Onion : SIEM](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#one-d%C3%A9finition-security-onion)
 2) [Utilisation de Base](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#two-utilisation-de-base)
-4) [Utilisation avancée](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#three-utilisation-avanc%C3%A9e)
-5) [Installation/enrôlement d'un agent dans Security Onion](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#4%EF%B8%8F%E2%83%A3-installationenr%C3%B4lement-dun-agent-dans-security-onion)
-6) [FAQ : solutions aux problèmes connus et communs liés à l’utilisation](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/USER_GUIDE.md#5%EF%B8%8F%E2%83%A3-faq--solutions-aux-probl%C3%A8mes-connus-et-communs-li%C3%A9s-%C3%A0-lutilisation)
+3) [Utilisation avancée](#utilisation-avancée)
+4) [Installation/enrôlement d'un agent dans Security Onion](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#4%EF%B8%8F%E2%83%A3-installationenr%C3%B4lement-dun-agent-dans-security-onion)
+5) [FAQ : solutions aux problèmes connus et communs liés à l’utilisation](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/USER_GUIDE.md#5%EF%B8%8F%E2%83%A3-faq--solutions-aux-probl%C3%A8mes-connus-et-communs-li%C3%A9s-%C3%A0-lutilisation)
 
 
 
