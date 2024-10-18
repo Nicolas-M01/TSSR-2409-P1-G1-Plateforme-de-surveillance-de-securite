@@ -2,10 +2,10 @@
 ---
 ## Sommaire
 
-1) [Définition Security Onion : SIEM](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#definition-security-onion)
-2) [Utilisation de Base](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#utilisation-de-Base)
-4) [Utilisation avancée](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#utilisation-avancee)
-5) [Installation/enrôlement d'un agent dans Security Onion](Installation/enrôlement-d'un-agent-dans-Security-Onion)
+1) [Définition Security Onion : SIEM](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#one-d%C3%A9finition-security-onion)
+2) [Utilisation de Base](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#two-utilisation-de-base)
+4) [Utilisation avancée](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#three-utilisation-avanc%C3%A9e)
+5) [Installation/enrôlement d'un agent dans Security Onion](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#4%EF%B8%8F%E2%83%A3-installationenr%C3%B4lement-dun-agent-dans-security-onion)
 6) [FAQ : solutions aux problèmes connus et communs liés à l’utilisation](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/USER_GUIDE.md#5%EF%B8%8F%E2%83%A3-faq--solutions-aux-probl%C3%A8mes-connus-et-communs-li%C3%A9s-%C3%A0-lutilisation)
 
 
@@ -209,5 +209,5 @@ Nous avons besoin à minima d'un agent, et donc d'une nouvelle machine capable d
 
 <br>
 
-## 5️⃣: FAQ : solutions aux problèmes connus et communs liés à l’utilisation  
+## 5️⃣ FAQ : solutions aux problèmes connus et communs liés à l’utilisation  
 :interrobang: [Faq site officiel](https://docs.securityonion.net/en/2.4/faq.html#users-passwords)
