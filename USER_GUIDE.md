@@ -6,8 +6,8 @@
 2) [Utilisation de Base](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#utilisation-de-Base)
 4) [Utilisation avancée](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#utilisation-avancee)
 5) [Installation/enrôlement d'un agent dans Security Onion](Installation/enrôlement-d'un-agent-dans-Security-Onion)
-6) [FAQ : solutions aux problèmes connus et communs liés à l’utilisation](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#faq-:-solutions-aux-problemes-connus-et-communs-lies-a-l-utilisation)
-  
+6) [FAQ : solutions aux problèmes connus et communs liés à l’utilisation](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/USER_GUIDE.md#5%EF%B8%8F%E2%83%A3-faq--solutions-aux-probl%C3%A8mes-connus-et-communs-li%C3%A9s-%C3%A0-lutilisation)
+
 
 
 ## :one: Définition Security Onion
