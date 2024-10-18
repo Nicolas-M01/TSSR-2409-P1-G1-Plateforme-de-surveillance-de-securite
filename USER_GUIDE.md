@@ -5,7 +5,8 @@
 1) [Définition Security Onion : SIEM](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#definition-security-onion)
 2) [Utilisation de Base](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#utilisation-de-Base)
 4) [Utilisation avancée](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#utilisation-avancee)
-5) [FAQ : solutions aux problèmes connus et communs liés à l’utilisation](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#faq-:-solutions-aux-problemes-connus-et-communs-lies-a-l-utilisation)
+5) [Installation/enrôlement d'un agent dans Security Onion](Installation/enrôlement-d'un-agent-dans-Security-Onion)
+6) [FAQ : solutions aux problèmes connus et communs liés à l’utilisation](https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/edit/main/USER_GUIDE.md#faq-:-solutions-aux-problemes-connus-et-communs-lies-a-l-utilisation)
   
 
 
@@ -109,5 +110,104 @@ La partie administration permet de gérer les utilisateurs, les membres du rése
 
     >***OpenCanary :*** Capable de simuler plusieurs services et applications susceptibles d'être ciblés par des attaquants tels que des serveurs SSH, HTTP, FTP...
 
-## :four: FAQ : solutions aux problèmes connus et communs liés à l’utilisation  
+## 4️⃣: Installation/enrôlement d'un agent dans Security Onion
+
+Afin de centraliser, tester et visualiser les données récoltées par le serveur security Onion, nous avons besoin d'un agent.
+Un agent est un logiciel déployé sur un système perttant de surveiller les activités, collecter des données et réaliser certaines tâches.
+Nous avons besoin à minima d'un agent, et donc d'une nouvelle machine capable de communiquer avec les serveurs de gestion d'analyse.
+
+
+### _Ajouter un agent_
+
+
+* Dans le panel de gauche, se rendre dans Tools et ouvrir l'outil Elastic Fleet.
+
+* Dans Elastic Fleet, cliquer sur "Add agent" et suivre les étapes indiquées. A l'étape 1, nous choisissons "endpoints-initial"
+
+<p align="center">
+<img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/Elastic_Fleet.png" alt="Pictures" width="800" >
+</p>
+
+* A l'étape 2, garder sélectionnée l'option "Enroll in Fleet"
+
+* A l'étape 3, il est question de choisir l'architecture sur laquelle installer l'agent.
+
+* Dans notre cas, nous optons pour une machine Windows 10. Nous privilégierons l'installation manuelle afin d'affiner les options. 
+
+* Conserver les informations présentes dans l'étape 3 (commandes, liens, token , …)
+
+
+
+### _Récupérer l'exécutable de l'os (ici windows 10)_
+
+
+
+* Dans le panel de gauche de l'interface de Security Onion, se rendre dans Downloads
+
+* Télécharger le exe de Windows "so-elastic-agent"
+
+
+
+### _Configurer le firewall_
+
+
+* Depuis l'interface, se rendre dans le panel de gauche puis dans Amdministration, puis Configuration - Grid Configuration
+
+* Sur la fenêtre de droite, cliquer sur "Allow Elastic Agent endpoints to send logs"
+
+
+<p align="center">
+<img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/Agent_Firewall_config.png" alt="Pictures" width="800" >
+</p>
+
+
+* La fenêtre ouvre le menu firewall et son sous-dossier "hostgroups" où devrait se retrouver l'"elastic_agent_endpoint"
+
+* Ajouter l'IP de la machine ayant le rôle d'agent dans la liste des "IP or CIDR blocks to allow access to this hostgroup"
+
+* Le chevron vertical qui surplombe cette fenêtre cache un menu déroulant par le haut à partir duquel on peut appuyer sur le "synchronize grid"
+
+
+<p align="center">
+<img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/Agent_synch_grid.png" alt="Pictures" width="800" >
+</p>
+
+
+* Une notification bleue devrait apparaître en haut de l'écran "synchronization has been initiated in the background; this process can take several minutes to complete"
+
+ >***NB :*** avant les prochaines étapes, nous précisons que nous avons redémarré le serveur security onion. Vérifier que le serveur est bien en ligne avec un ping.
+
+
+### _Installation de l'agent_
+
+
+* Retourner sur le téléchargement du exe (le placer dans un répertoire adéquat), tenter un clic droit et "run as admin".
+
+* L'exécution du exe so-elastic-agent peut ne pas fonctionner et produire un rapport d'erreur normalement disponible dans le même répertoire. Il sera appelé "SO-Elastic-Agent_Installer.log". Ce fichier dispose des infos de connexion entre l'agent et la "Fleet Hosts", les même que celles de la page Elastic Fleet.
+
+* Prendre note du token associé à la tentative d'enrôlement.
+
+* Dans notre cas nous ne souhaitons pas de connexion sécurisée entre notre agent et notre serveur puisqu'il s'agit d'un test et que nous ne disposons par ailleurs pas de certificat https.
+
+* Toujours dans le cas de figure où l'agent n'est pas initialisé par l'exécution. Utiliser PowerShell, ouvrir l'invite et se rendre dans le répertoire du exe.
+
+<p align="center">
+<img src="https://github.com/WildCodeSchool/TSSR-2409-P1-G1-Plateforme-de-surveillance-de-securite/blob/main/Install_Screen_SecurityOnion/Agent_install_command.png" alt="Pictures" width="800" >
+</p>
+
+
+* Une fois dans le répertoire du fichier, lancer l'installation manuellement avec la commande suivante :
+\
+		 ```.\so-elastic-agent_windows_amd64.exe install --url=http://IPADRESS:PORT --enrollment-token="TOKEN" --insecure```
+* Ceci devrait permettre l'installation de l'agent sans le mode sécurisé. 
+
+* De retour dans l'interface, vérifier le Dashboard de Security Onion et choisir le filtre à côté du champ de recherche "Host Overview"
+
+* Vérifier si de nouvelles données relatives au système de l'agent ont été collectées.  
+
+[ressource utile](https://www.youtube.com/watch?v=cGmQMsFuAvw)
+
+<br>
+
+## 5️⃣: FAQ : solutions aux problèmes connus et communs liés à l’utilisation  
 :interrobang: [Faq site officiel](https://docs.securityonion.net/en/2.4/faq.html#users-passwords)
